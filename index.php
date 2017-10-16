@@ -1,10 +1,11 @@
 <?php
 require_once('php/header.php');
 
+
 ?>
 
     <div>
-        <p>Bienvenido!</p>
+        <a class="waves-effect waves-light btn-large" href="/php/login.php">Iniciar</a>
     </div>
 
 <?php
