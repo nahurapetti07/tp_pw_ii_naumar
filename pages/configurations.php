@@ -4,9 +4,9 @@ require_once('../php/session-alive.php');
 
 ?>
 
-    <div>
-        <h2>Configuraciones</h2>
-    </div>
+<div class="container">
+    <h2>Configuraciones</h2>
+</div>
 
 <?php
 require_once('../php/footer.php');

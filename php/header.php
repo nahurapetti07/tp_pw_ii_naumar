@@ -20,4 +20,6 @@
                 </div>
             </nav>
         </header>
-        <main class="container">
+        <main>
+            <div class="section">
+            </div>

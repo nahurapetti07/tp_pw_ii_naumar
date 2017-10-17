@@ -3,7 +3,7 @@
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Log&iacute;stica Corcho</h5>
+                <h5 class="white-text">Log&iacute;stica Naumar</h5>
               </div>
               <div class="col l4 offset-l2 s12">
                 <p class="grey-text text-lighten-4">TP Programaci&oacute;n Web II - Caruso / Rapetti.</p>
