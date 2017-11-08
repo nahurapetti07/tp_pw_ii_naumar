@@ -8,4 +8,14 @@ class Controller_Main extends Controller{
     function logout(){
         header("Location: /application/utils/session_logout.php");
     }
+
+    function login(){
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+                
+    }
+
+    function home(){
+        $this->view->generate('home_view.php', 'template_private.php');
+    }
 }

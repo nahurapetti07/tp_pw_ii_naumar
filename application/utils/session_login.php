@@ -2,9 +2,9 @@
 
 session_start();
 
-$_SESSION["logueado"] = TRUE;
+$_SESSION["user_logged"] = TRUE;
 
-header("Location: /product/listProduct");
+header("Location: /");
 /*
 	$Usuario = '';
 	$Clave = '';

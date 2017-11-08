@@ -1,3 +1,7 @@
+<?php
+    require_once 'application/utils/session_home.php';
+?>
+
 <!DOCTYPE html>
 <head>
     <?php

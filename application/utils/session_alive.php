@@ -2,11 +2,10 @@
 
 session_start();
 
-if($_SESSION["logueado"] == TRUE) {
-
-} else {
+if($_SESSION["user_logged"] != TRUE) {
 		session_unset();
 		session_destroy();
 		header("Location: /");
-	}
+}
+
 ?>
