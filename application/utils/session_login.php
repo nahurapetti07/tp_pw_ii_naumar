@@ -78,4 +78,15 @@ header("Location: /");
 				
 	//}else{ echo "Hola";}
 */
+
+
+/*
+	$usuario = new user("admin@naumar.com", "admin604");
+	$Existe_Usuario = $usuario->validarUsuario();
+	//echo var_dump($Existe_Usuario);
+	if($Existe_Usuario[0]["ID_Usuario"])
+		echo "Existe Usuario";
+	else
+		echo "NO Existe Usuario";
+*/
 ?>

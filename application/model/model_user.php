@@ -1,6 +1,6 @@
 <?php
 	
-	require_once 'DB.php';
+	require_once $_SERVER['DOCUMENT_ROOT'].'application/dbo/db.php';
 
 	class user{
 		private $Usr = "";
@@ -25,11 +25,5 @@
 
 	}
 
-	$usuario = new user("admin@naumar.com", "admin604");
-	$Existe_Usuario = $usuario->validarUsuario();
-	//echo var_dump($Existe_Usuario);
-	if($Existe_Usuario[0]["ID_Usuario"])
-		echo "Existe Usuario";
-	else
-		echo "NO Existe Usuario";
+	
 ?>
